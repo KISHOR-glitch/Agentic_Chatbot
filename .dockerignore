@@ -5,3 +5,13 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Local secrets, repository metadata, and chat data
+.env
+.env.*
+!.env.example
+.git
+*.db
+*.db-shm
+*.db-wal
+__pycache__/
